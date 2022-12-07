@@ -14,10 +14,7 @@ for (let i = 0; i < n - 3; i++) {
         arr1[j + 1] = array[j + 1] + array[j];
     }
     for (let l = 0; l <= Math.floor(arr1.length / 2); l++) {
-        arr1[arr1.length - l] = arr1[l];
+        arr1[arr1.length - l] = arr1[l-1];
     }
     console.log(arr1);
 }
-
-
-
